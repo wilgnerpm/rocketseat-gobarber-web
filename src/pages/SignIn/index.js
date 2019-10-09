@@ -19,7 +19,7 @@ export default function SignIn() {
         <Input name="email" type="email" placeholder="Seu e-mail" />
         <Input name="password" type="password" placeholder="Sua senha" />
         <button type="submit">Acessar</button>
-        <Link to="/register">Criar conta </Link>
+        <Link to="/signup">Criar conta </Link>
       </Form>
     </>
   );
